@@ -81,8 +81,7 @@ Changing the short window to 5 and the long window to 120 resulted in the acturn
 3. Choose the set of parameters that best improved the trading algorithm returns. Save a PNG image of the cumulative product of the actual returns vs. the strategy returns, and document your conclusion in your `README.md` file.
 
 Based on the above results, it appears by adjusting the date parameters, you will get a stronger performance for the trading algorithm. I would not recommend adjusting the sma windows.
-
-![Decorative image.](Images/Tuned trading algo.png)
+![Tuned-trading-algo.png](Tuned-trading-algo.png)
 
 ### Evaluate a New Machine Learning Classifier
 
