@@ -71,7 +71,8 @@ Open the Jupyter notebook. Restart the kernel, run the provided cells that corre
 In this section, you’ll tune, or adjust, the model’s input features to find the parameters that result in the best trading outcomes. (You’ll choose the best by comparing the cumulative products of the strategy returns.) To do so, complete the following steps:
 
  The base model performed better than actual market return with a 1.5x return compared to a 1.4x.
-![Decorative image.](Images/baseline plot.png)
+![baseline-plot.png](baseline-plot.png)
+
 1. Tune the training algorithm by adjusting the size of the training dataset. To do so, slice your data into different periods. Rerun the notebook with the updated parameters, and record the results in your `README.md` file. Answer the following question: What impact resulted from increasing or decreasing the training window?
 Increasing the training window to 6 months instead of 3 showed the model outperform the actual returns with 1.8x compared to 1.6x. All other parameteres were unchanged.
 
@@ -95,8 +96,7 @@ In this section, you’ll use the original parameters that the starter code prov
 
 ### Summary of Findings
 the baseline model seemed to perform better than the Logistic Regression Model. However, the baseline model tuned to a 6 month training window seemed to produce the best results. 
-![Decorative image.](Images/LR model Plot.png)
-
+![LR-model-Plot.png](LR-model-Plot.png)
 ---
 
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
